@@ -4,6 +4,7 @@ import styles from "./page.module.css";
 import Topo from "./components/Top"
 import Main from "./components/Main";
 import Competencias from "./components/competencias";
+import Cases from "./components/Cases";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Topo />
       <Main />
       <Competencias />
+     
     </div>
   );
 }
