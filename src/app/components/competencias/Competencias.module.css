@@ -7,6 +7,8 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  background: linear-gradient(135deg, #0a0f14, #021823, #051c29);
+  background-attachment: fixed;
 }
 
 .competencias {
@@ -24,18 +26,23 @@
 .cards {
   height: 300px;
   width: 300px;
-  border: solid 1px;
   border-radius: 10px;
   padding: 20px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  color: #005bb5;
   gap: 20px;
   position: relative;
   transition: 0.2s;
 }
 
+.cards>h2{
+  color: orange;
+}
+
+.cards>p{
+  color: white;
+}
 .icon {
   height: 90px;
   width: auto;
@@ -46,7 +53,7 @@
 }
 
 .cards:hover {
-  background-color: rgb(255, 245, 245);
+  background: linear-gradient(135deg, #19253183, #01080c, #00000085);
   transform: scale(1.05);  /* Reduzi o efeito de scale para melhorar a responsividade */
   cursor: pointer;
 }

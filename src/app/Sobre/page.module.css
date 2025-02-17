@@ -1,0 +1,34 @@
+.Sobre{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  gap:30px;
+
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #0a0f14, #021823, #051c29);
+  background-attachment: fixed;
+  
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.artedemo{
+  width: 50%;
+  height: auto;
+  min-width: 500px;
+}
+
+.containertext{
+ color: white;
+ width: 500px;
+}
+.containertext>h2{
+  font-size: 3em;
+}
+
+.containertext>p{
+  font-size: 1em;
+}

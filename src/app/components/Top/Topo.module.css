@@ -1,10 +1,11 @@
 .topo {
   height: 80px;
   display: flex;
-  width: 100%;
+  width: 100vw;
   align-items: center;
   justify-content: space-around;
-  background: linear-gradient(135deg, #0d7af7, #005bb5);
+  background: linear-gradient(135deg, #0a0f14, #021823, #051c29);
+  background-attachment: fixed;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   align-items: center;
   position: absolute;
