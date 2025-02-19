@@ -44,7 +44,7 @@
   color: white;
 }
 .icon {
-  height: 90px;
+  height: 120px;
   width: auto;
   top: 10px;
   left: 20px;
@@ -53,7 +53,7 @@
 }
 
 .cards:hover {
-  background: linear-gradient(135deg, #19253183, #01080c, #00000085);
+  background: linear-gradient(135deg, #19253123, #01080c15, #00000017);
   transform: scale(1.05);  /* Reduzi o efeito de scale para melhorar a responsividade */
   cursor: pointer;
 }
@@ -84,3 +84,17 @@
     padding: 0px;
   }
 }
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px; /* Ajuste conforme necessário */
+  height: 100px; /* Ajuste conforme necessário */
+}
+
+.icon {
+  transition: opacity 0.3s ease-in-out;
+}
+
+
