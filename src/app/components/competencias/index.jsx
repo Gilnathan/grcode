@@ -2,16 +2,12 @@
 
 import styles from './Competencias.module.css';
 import Image from "next/image";
-import responsivo from "/public/icones/responsivo.png";
-import webdesign from "/public/icones/web-design.png";
-import esquema from "/public/icones/esquema.png";
-import rapidez from "/public/icones/rapidez.png";
-import suportetecnico from "/public/icones/suporte-tecnico.png";
-import google from "/public/icones/google.png";
-import personalizacao from "/public/icones/personalizacao.png";
-import integracaodedados from "/public/icones/integracao-de-dados.png";
 
-import Lottie from "lottie-react";
+import dynamic from "next/dynamic";
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
+
+
+
 import animationGlobo from "/public/animationGlobo.json"
 import animacaodesigner from "/public/animacaodesigner.json"
 import AnimationLayout from "/public/AnimationLayout.json"
